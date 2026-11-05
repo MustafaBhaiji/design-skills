@@ -211,3 +211,13 @@ This plugin bundles the skills, agents and commands below. They are copied unmod
   - skill `3d-retina-resolution` from `agent-skills/3d/3d-retina-resolution`
   - skill `audit-reference-originality` from `agent-skills/codex/audit-reference-originality`
   - skill `stitched-full-page-capture` from `agent-skills/codex/stitched-full-page-capture`
+
+## obra/superpowers
+
+- Source: https://github.com/obra/superpowers at commit `22f0b463e7a5e579904dd6211a520321035526f7`
+- Licence: MIT (Copyright (c) 2025 Jesse Vincent)
+- Licence files: `licenses/obra-superpowers/LICENSE`
+- Bundled:
+  - skill `systematic-debugging` from `skills/systematic-debugging`
+  - skill `test-driven-development` from `skills/test-driven-development`
+  - skill `verification-before-completion` from `skills/verification-before-completion`

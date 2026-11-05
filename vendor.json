@@ -244,6 +244,18 @@
         { "type": "skill", "from": "agent-skills/codex/audit-reference-originality", "to": "audit-reference-originality" },
         { "type": "skill", "from": "agent-skills/codex/stitched-full-page-capture", "to": "stitched-full-page-capture" }
       ]
+    },
+    {
+      "id": "obra-superpowers",
+      "repo": "obra/superpowers",
+      "commit": "22f0b463e7a5e579904dd6211a520321035526f7",
+      "license": "MIT",
+      "licenseFiles": ["LICENSE"],
+      "items": [
+        { "type": "skill", "from": "skills/systematic-debugging", "to": "systematic-debugging" },
+        { "type": "skill", "from": "skills/test-driven-development", "to": "test-driven-development" },
+        { "type": "skill", "from": "skills/verification-before-completion", "to": "verification-before-completion" }
+      ]
     }
   ]
 }

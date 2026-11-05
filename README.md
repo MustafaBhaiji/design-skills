@@ -4,7 +4,7 @@
 
 Built by [Digivolve Innovations](https://digivolve.online), web design and software development in Dar es Salaam. This is the workflow we use on client projects.
 
-A Claude Code plugin that takes a website, web app or mobile app from brief to client-ready review in four stages, and won't sign a project off until it clears a hard quality bar: a jury score of at least 8.0 with no category below 7.0, WCAG 2.2 AA accessibility, phone performance budgets, and no generic "AI-made" design patterns. Each stage runs in a fresh Claude session and hands over to the next through a `handover.md` file. The main session acts as manager: it keeps the design and architecture decisions and hands routine work to cheaper models (Sonnet for planned features and reviews, Haiku for scaffolding, installs, screenshots and mechanical edits).
+A Claude Code plugin that takes a website, web app or mobile app from brief to client-ready review in four stages, and won't sign a project off until it clears a hard quality bar: phone performance budgets, no generic "AI-made" design patterns, and every page checked against WCAG 2.2 AA. Each stage runs in a fresh Claude session and hands over to the next through a `handover.md` file. The main session acts as manager: it keeps the design and architecture decisions and hands routine work to cheaper models (Sonnet for planned features and reviews, Haiku for scaffolding, installs, screenshots and mechanical edits).
 
 | Stage | Command | What it does | Leaves behind |
 |---|---|---|---|
@@ -85,12 +85,13 @@ Skills, agents, commands and one reference document from the open-source repos b
 - [MiniMax skills](https://github.com/MiniMax-AI/skills): iOS, Android, Flutter and React Native platform guides
 - [LottieFiles motion design](https://github.com/LottieFiles/motion-design-skill): motion principles for loaders, transitions and Lottie
 - [Meng To's skills](https://github.com/MengTo/Skills): Three.js and WebGL, high-density rendering, reference originality audit, full-page capture
+- [Superpowers](https://github.com/obra/superpowers) by Jesse Vincent: systematic debugging, test-driven development, verification before completion
 
 Full list, pinned commits and licences: [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Credit for those skills belongs to their authors.
 
 ### Known limits
 
-- Bundled skills are copied unmodified. Every sibling skill they point to is bundled, except the three `/superpowers:...` commands mentioned in `click-path-audit`, which come from a separate collection; that skill works without them.
+- Bundled skills are copied unmodified, so some refer to their siblings by their original names (for example `/superpowers:systematic-debugging` in `click-path-audit`). Those siblings are bundled under the same name in the `dv:` namespace, except `superpowers:writing-skills`, which only matters if you're writing skills of your own.
 - A few ECC skills expect tools from the full ECC install (its hooks or a browser MCP server). They still give useful guidance without them.
 - The repo is large, most of it the reference libraries inside `design-taste-frontend` and `ui-ux-pro-max`.
 
