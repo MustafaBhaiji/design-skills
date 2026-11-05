@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "digivolve",
+  "description": "Claude Code skills by Digivolve Innovations: a four-stage plan, build, review and critic workflow for websites, web apps and mobile apps.",
+  "owner": {
+    "name": "Digivolve Innovations",
+    "url": "https://digivolve.online"
+  },
+  "plugins": [
+    {
+      "name": "dv",
+      "description": "Plan, build, review and critique websites, web apps and mobile apps, with bundled skills and agents.",
+      "source": "./",
+      "category": "development"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "dv",
+  "version": "1.0.0",
+  "description": "Plan, build, review and critique websites, web apps and mobile apps in four stages, chained by handover files, with the main session as manager and cheaper models doing the routine work. Bundles the skills and agents each stage uses.",
+  "author": {
+    "name": "Digivolve Innovations",
+    "url": "https://digivolve.online"
+  },
+  "license": "MIT",
+  "homepage": "https://digivolve.online",
+  "repository": "https://github.com/mustafabhaiji/design-skills",
+  "keywords": [
+    "claude-code",
+    "claude-skills",
+    "website",
+    "web-app",
+    "mobile-app",
+    "web-design",
+    "design-system",
+    "accessibility",
+    "awwwards",
+    "code-review"
+  ]
+}

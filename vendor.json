@@ -1,0 +1,242 @@
+{
+  "note": "Third-party skills, agents and commands bundled in this plugin. Each is copied unmodified from its source repo at the pinned commit by scripts/sync-vendor.mjs. Do not edit vendored folders by hand.",
+  "sources": [
+    {
+      "id": "emilkowalski-skills",
+      "repo": "emilkowalski/skills",
+      "commit": "c8a79627b59d72d764d6ab6f2c87c09a48169833",
+      "license": "MIT",
+      "licenseFiles": ["LICENSE"],
+      "items": [
+        { "type": "skill", "from": "skills/animate", "to": "animate" },
+        { "type": "skill", "from": "skills/choreograph", "to": "choreograph" },
+        { "type": "skill", "from": "skills/mobile-native", "to": "mobile-native" },
+        { "type": "skill", "from": "skills/pick-ui-library", "to": "pick-ui-library" },
+        { "type": "skill", "from": "skills/break-ui", "to": "break-ui" },
+        { "type": "skill", "from": "skills/animation-performance", "to": "animation-performance" },
+        { "type": "skill", "from": "skills/review-animations", "to": "review-animations" },
+        { "type": "skill", "from": "skills/animate-expo", "to": "animate-expo" },
+        { "type": "skill", "from": "skills/write-swift", "to": "write-swift" },
+        { "type": "skill", "from": "skills/apple-design", "to": "apple-design" }
+      ]
+    },
+    {
+      "id": "leonxlnx-taste-skill",
+      "repo": "Leonxlnx/taste-skill",
+      "commit": "9b4bf937a1f69348126959c15d2f99a73e65699b",
+      "license": "MIT",
+      "licenseFiles": ["LICENSE"],
+      "items": [
+        { "type": "skill", "from": "skills/taste-skill", "to": "design-taste-frontend" }
+      ]
+    },
+    {
+      "id": "leonxlnx-taste-skill-classics",
+      "repo": "Leonxlnx/taste-skill-classics",
+      "commit": "5e08c9383dc4ad7fc0df70e1ac8cfa09ec356305",
+      "license": "MIT",
+      "licenseFiles": ["LICENSE"],
+      "items": [
+        { "type": "skill", "from": "skills/soft-skill", "to": "high-end-visual-design" },
+        { "type": "skill", "from": "skills/gpt-tasteskill", "to": "gpt-taste" }
+      ]
+    },
+    {
+      "id": "juliobsz-skills",
+      "repo": "juliobsz/skills",
+      "commit": "add880bd6ec9f5592a1482846fc0dd282c9161bc",
+      "license": "MIT",
+      "licenseFiles": ["LICENSE"],
+      "items": [
+        { "type": "skill", "from": "awwwards", "to": "awwwards" },
+        { "type": "skill", "from": "jury", "to": "jury" }
+      ]
+    },
+    {
+      "id": "juliusbrussee-caveman",
+      "repo": "JuliusBrussee/caveman",
+      "commit": "2e068f735253cce28256744804785f01887d9646",
+      "license": "Apache-2.0 OR MIT",
+      "licenseFiles": ["LICENSE", "LICENSE-MIT", "NOTICE"],
+      "items": [
+        { "type": "skill", "from": "skills/lean-build", "to": "lean-build" },
+        { "type": "skill", "from": "skills/migration", "to": "migration" },
+        { "type": "skill", "from": "skills/safe-refactor", "to": "safe-refactor" },
+        { "type": "skill", "from": "skills/surgical-patch", "to": "surgical-patch" },
+        { "type": "skill", "from": "skills/verify-and-stop", "to": "verify-and-stop" },
+        { "type": "skill", "from": "skills/investigate-first", "to": "investigate-first" }
+      ]
+    },
+    {
+      "id": "affaan-m-ecc",
+      "repo": "affaan-m/ECC",
+      "commit": "b38be6a7f6350964d59328b52f0624e1d1d552d1",
+      "license": "MIT",
+      "licenseFiles": ["LICENSE"],
+      "items": [
+        { "type": "skill", "from": "skills/accessibility", "to": "accessibility" },
+        { "type": "skill", "from": "skills/api-design", "to": "api-design" },
+        { "type": "skill", "from": "skills/architecture-decision-records", "to": "architecture-decision-records" },
+        { "type": "skill", "from": "skills/backend-patterns", "to": "backend-patterns" },
+        { "type": "skill", "from": "skills/blueprint", "to": "blueprint" },
+        { "type": "skill", "from": "skills/browser-qa", "to": "browser-qa" },
+        { "type": "skill", "from": "skills/click-path-audit", "to": "click-path-audit" },
+        { "type": "skill", "from": "skills/contract-first", "to": "contract-first" },
+        { "type": "skill", "from": "skills/council", "to": "council" },
+        { "type": "skill", "from": "skills/dart-flutter-patterns", "to": "dart-flutter-patterns" },
+        { "type": "skill", "from": "skills/database-migrations", "to": "database-migrations" },
+        { "type": "skill", "from": "skills/design-system", "to": "design-system" },
+        { "type": "skill", "from": "skills/error-handling", "to": "error-handling" },
+        { "type": "skill", "from": "skills/frontend-a11y", "to": "frontend-a11y" },
+        { "type": "skill", "from": "skills/frontend-design-direction", "to": "frontend-design-direction" },
+        { "type": "skill", "from": "skills/frontend-patterns", "to": "frontend-patterns" },
+        { "type": "skill", "from": "skills/intent-driven-development", "to": "intent-driven-development" },
+        { "type": "skill", "from": "skills/make-interfaces-feel-better", "to": "make-interfaces-feel-better" },
+        { "type": "skill", "from": "skills/nextjs-turbopack", "to": "nextjs-turbopack" },
+        { "type": "skill", "from": "skills/product-lens", "to": "product-lens" },
+        { "type": "skill", "from": "skills/react-native-patterns", "to": "react-native-patterns" },
+        { "type": "skill", "from": "skills/react-patterns", "to": "react-patterns" },
+        { "type": "skill", "from": "skills/santa-method", "to": "santa-method" },
+        { "type": "skill", "from": "skills/search-first", "to": "search-first" },
+        { "type": "skill", "from": "skills/security-review", "to": "security-review" },
+        { "type": "skill", "from": "skills/swiftui-patterns", "to": "swiftui-patterns" },
+        { "type": "skill", "from": "skills/tdd-workflow", "to": "tdd-workflow" },
+        { "type": "skill", "from": "skills/verification-loop", "to": "verification-loop" },
+        { "type": "command", "from": "commands/code-review.md", "to": "code-review" },
+        { "type": "command", "from": "commands/plan-prd.md", "to": "plan-prd" },
+        { "type": "agent", "from": "agents/architect.md", "to": "architect" },
+        { "type": "agent", "from": "agents/build-error-resolver.md", "to": "build-error-resolver" },
+        { "type": "agent", "from": "agents/code-reviewer.md", "to": "code-reviewer" },
+        { "type": "agent", "from": "agents/flutter-reviewer.md", "to": "flutter-reviewer" },
+        { "type": "agent", "from": "agents/kotlin-reviewer.md", "to": "kotlin-reviewer" },
+        { "type": "agent", "from": "agents/react-reviewer.md", "to": "react-reviewer" },
+        { "type": "agent", "from": "agents/security-reviewer.md", "to": "security-reviewer" },
+        { "type": "agent", "from": "agents/swift-reviewer.md", "to": "swift-reviewer" },
+        { "type": "agent", "from": "agents/tdd-guide.md", "to": "tdd-guide" },
+        { "type": "agent", "from": "agents/typescript-reviewer.md", "to": "typescript-reviewer" }
+      ]
+    },
+    {
+      "id": "anthropics-knowledge-work-plugins",
+      "repo": "anthropics/knowledge-work-plugins",
+      "commit": "d900840716eb262e1feb17c6f4406c9ce0e06bcf",
+      "license": "Apache-2.0",
+      "licenseFiles": ["LICENSE"],
+      "items": [
+        { "type": "skill", "from": "design/skills/design-critique", "to": "design-critique" },
+        { "type": "skill", "from": "design/skills/design-handoff", "to": "design-handoff" },
+        { "type": "skill", "from": "design/skills/research-synthesis", "to": "research-synthesis" },
+        { "type": "skill", "from": "design/skills/user-research", "to": "user-research" },
+        { "type": "skill", "from": "design/skills/ux-copy", "to": "ux-copy" },
+        { "type": "skill", "from": "data/skills/sql-queries", "to": "sql-queries" }
+      ]
+    },
+    {
+      "id": "anthropics-claude-plugins-official",
+      "repo": "anthropics/claude-plugins-official",
+      "commit": "fb370c077e8904ce5a0fbe5c89084f5171863c1f",
+      "license": "Apache-2.0",
+      "licenseFiles": ["LICENSE"],
+      "items": [
+        { "type": "skill", "from": "plugins/frontend-design/skills/frontend-design", "to": "frontend-design" }
+      ]
+    },
+    {
+      "id": "anthropics-skills",
+      "repo": "anthropics/skills",
+      "commit": "ca45fc496a3436251f191354091d557da31c15b5",
+      "license": "Apache-2.0 (per-skill LICENSE.txt)",
+      "licenseFiles": [],
+      "items": [
+        { "type": "skill", "from": "skills/theme-factory", "to": "theme-factory" }
+      ]
+    },
+    {
+      "id": "pbakaus-impeccable",
+      "repo": "pbakaus/impeccable",
+      "commit": "8c7b98c0ae139611ffb757b1cb61d7e151a156b8",
+      "license": "Apache-2.0",
+      "licenseFiles": ["LICENSE", "NOTICE.md"],
+      "items": [
+        { "type": "skill", "from": "plugin/skills/impeccable", "to": "impeccable" }
+      ]
+    },
+    {
+      "id": "nutlope-hallmark",
+      "repo": "Nutlope/hallmark",
+      "commit": "407fa689f4a276f2fd389208d271d0fef08f5058",
+      "license": "MIT",
+      "licenseFiles": ["LICENSE"],
+      "items": [
+        { "type": "skill", "from": "skills/hallmark", "to": "hallmark" }
+      ]
+    },
+    {
+      "id": "oil-oil-oil-ui",
+      "repo": "oil-oil/oil-ui",
+      "commit": "0d64a00f3a5c45bf7a30d35bded9b7c0fdff2128",
+      "license": "MIT",
+      "licenseFiles": ["LICENSE"],
+      "items": [
+        { "type": "skill", "from": "", "to": "oil-ui", "include": ["SKILL.md", "references", "scripts", "assets"] }
+      ]
+    },
+    {
+      "id": "nextlevelbuilder-ui-ux-pro-max",
+      "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "commit": "b7d5353e0130feb8c5574ef1251f8a1db1873ccb",
+      "license": "MIT",
+      "licenseFiles": ["LICENSE"],
+      "items": [
+        { "type": "skill", "from": ".claude/skills/ui-ux-pro-max", "to": "ui-ux-pro-max" }
+      ]
+    },
+    {
+      "id": "vercel-labs-web-interface-guidelines",
+      "repo": "vercel-labs/web-interface-guidelines",
+      "commit": "434b7f91364665f2f733b310ec54809bf8f37937",
+      "license": "MIT",
+      "licenseFiles": ["LICENSE"],
+      "items": [
+        { "type": "reference", "from": "AGENTS.md", "to": "web-interface-guidelines.md" }
+      ]
+    },
+    {
+      "id": "minimax-ai-skills",
+      "repo": "MiniMax-AI/skills",
+      "commit": "60aaae52bb2af8162732751a4332f62a5fef518b",
+      "license": "MIT",
+      "licenseFiles": ["LICENSE", "LICENSES/Apache-2.0.txt"],
+      "items": [
+        { "type": "skill", "from": "skills/android-native-dev", "to": "android-native-dev" },
+        { "type": "skill", "from": "skills/ios-application-dev", "to": "ios-application-dev" },
+        { "type": "skill", "from": "skills/flutter-dev", "to": "flutter-dev" },
+        { "type": "skill", "from": "skills/react-native-dev", "to": "react-native-dev" }
+      ]
+    },
+    {
+      "id": "lottiefiles-motion-design-skill",
+      "repo": "LottieFiles/motion-design-skill",
+      "commit": "f9a8a041b85185ee4881b3471d3415e939aac772",
+      "license": "MIT",
+      "licenseFiles": ["LICENSE"],
+      "items": [
+        { "type": "skill", "from": "skills/motion-design", "to": "motion-design" }
+      ]
+    },
+    {
+      "id": "mengto-skills",
+      "repo": "MengTo/Skills",
+      "commit": "5ea1661a0e05d82b054553daaa6baf6d0233c33c",
+      "license": "MIT",
+      "licenseFiles": ["LICENSE"],
+      "items": [
+        { "type": "skill", "from": "agent-skills/web-design/threejs", "to": "threejs" },
+        { "type": "skill", "from": "agent-skills/web-design/webgl-landing-steering", "to": "webgl-landing-steering" },
+        { "type": "skill", "from": "agent-skills/3d/3d-retina-resolution", "to": "3d-retina-resolution" },
+        { "type": "skill", "from": "agent-skills/codex/audit-reference-originality", "to": "audit-reference-originality" },
+        { "type": "skill", "from": "agent-skills/codex/stitched-full-page-capture", "to": "stitched-full-page-capture" }
+      ]
+    }
+  ]
+}
