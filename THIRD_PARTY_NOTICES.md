@@ -70,13 +70,16 @@ This plugin bundles the skills, agents and commands below. They are copied unmod
   - skill `backend-patterns` from `skills/backend-patterns`
   - skill `blueprint` from `skills/blueprint`
   - skill `browser-qa` from `skills/browser-qa`
+  - skill `bun-runtime` from `skills/bun-runtime`
   - skill `click-path-audit` from `skills/click-path-audit`
+  - skill `coding-standards` from `skills/coding-standards`
   - skill `contract-first` from `skills/contract-first`
   - skill `council` from `skills/council`
   - skill `dart-flutter-patterns` from `skills/dart-flutter-patterns`
   - skill `database-migrations` from `skills/database-migrations`
   - skill `design-system` from `skills/design-system`
   - skill `error-handling` from `skills/error-handling`
+  - skill `flutter-dart-code-review` from `skills/flutter-dart-code-review`
   - skill `frontend-a11y` from `skills/frontend-a11y`
   - skill `frontend-design-direction` from `skills/frontend-design-direction`
   - skill `frontend-patterns` from `skills/frontend-patterns`
@@ -89,8 +92,12 @@ This plugin bundles the skills, agents and commands below. They are copied unmod
   - skill `santa-method` from `skills/santa-method`
   - skill `search-first` from `skills/search-first`
   - skill `security-review` from `skills/security-review`
+  - skill `swift-actor-persistence` from `skills/swift-actor-persistence`
+  - skill `swift-concurrency-6-2` from `skills/swift-concurrency-6-2`
+  - skill `swift-protocol-di-testing` from `skills/swift-protocol-di-testing`
   - skill `swiftui-patterns` from `skills/swiftui-patterns`
   - skill `tdd-workflow` from `skills/tdd-workflow`
+  - skill `typescript-patterns` from `skills/typescript-patterns`
   - skill `verification-loop` from `skills/verification-loop`
   - command `code-review` from `commands/code-review.md`
   - command `plan-prd` from `commands/plan-prd.md`

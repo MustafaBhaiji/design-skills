@@ -35,7 +35,7 @@ Every stage loads only the skills that fit the surface: website, web app, or mob
 
 ## Keeping sessions lean
 
-- **Install the plugin where you build sites, not everywhere.** Its 75 skills and 10 agents add roughly 6k to 8k tokens to the skill and agent listing of every session where it's enabled, even sessions that never use it.
+- **Install the plugin where you build sites, not everywhere.** Its 82 skills and 10 agents add roughly 6k to 8k tokens to the skill and agent listing of every session where it's enabled, even sessions that never use it.
 - **Don't run duplicates.** If you already have ECC, Emil Kowalski's skills or the other bundled collections installed, you pay for both copies in every session's listing.
 - **Prune connectors.** Every connected MCP server adds its tool definitions and instructions to every session. Turn off the ones a project doesn't need.
 - **Start each stage fresh,** and check your context usage after the first turn. If it's far above what an empty session in your setup starts with, the stage has inherited something it shouldn't have.
@@ -70,7 +70,7 @@ Earlier handovers are kept in `docs/handover/`.
 
 ## What's bundled
 
-71 skills, 10 agents, 2 commands and one reference document from fifteen open-source repos, all under MIT or Apache 2.0:
+78 skills, 10 agents, 2 commands and one reference document from fifteen open-source repos, all under MIT or Apache 2.0:
 
 - [Emil Kowalski's skills](https://github.com/emilkowalski/skills): motion, mobile feel, UI stress tests
 - [taste-skill](https://github.com/Leonxlnx/taste-skill) and [taste-skill-classics](https://github.com/Leonxlnx/taste-skill-classics) by Leonxlnx: visual design direction
@@ -90,7 +90,7 @@ Full list, pinned commits and licences: [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOT
 
 ### Known limits
 
-- Bundled skills are copied unmodified, so some refer to their siblings by their original names (for example `ecc:...`). Claude usually finds the bundled `dv:` copy with the same name; if you also have the original collection installed, either copy works.
+- Bundled skills are copied unmodified. Every sibling skill they point to is bundled, except the three `/superpowers:...` commands mentioned in `click-path-audit`, which come from a separate collection; that skill works without them.
 - A few ECC skills expect tools from the full ECC install (its hooks or a browser MCP server). They still give useful guidance without them.
 - The repo is about 55 MB, most of it the reference libraries inside `design-taste-frontend` and `ui-ux-pro-max`.
 
