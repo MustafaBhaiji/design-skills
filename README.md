@@ -1,8 +1,10 @@
-# Claude Code Web Studio
+# Web Studio for Claude Code
 
 **Plan, build, review and critique websites, web apps and mobile apps with Claude Code.**
 
 Built by [Digivolve Innovations](https://digivolve.online), web design and software development in Dar es Salaam. This is the workflow we use on client projects.
+
+This is an independent community plugin. It is not made, endorsed or supported by Anthropic. Claude and Claude Code are trademarks of Anthropic.
 
 A Claude Code plugin that takes a website, web app or mobile app from brief to client-ready review in four stages, and won't sign a project off until it clears a hard quality bar: phone performance budgets, no generic "AI-made" design patterns, and every page checked against WCAG 2.2 AA. Each stage runs in a fresh Claude session and hands over to the next through a `handover.md` file. The main session acts as manager: it keeps the design and architecture decisions and hands routine work to cheaper models (Sonnet for planned features and reviews, Haiku for scaffolding, installs, screenshots and mechanical edits).
 
