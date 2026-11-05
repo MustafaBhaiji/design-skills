@@ -118,6 +118,16 @@ It renames every reference to the plugin's `dv:` namespace and drops local-only 
 
 `skills/build/references/ui-sources.md` lists the component libraries the build stage uses as visual references, which ones are free to extract code from, and the rules for writing calls to action per placement (with [CTA Examples](https://ctaexamples.com/) as the copy reference).
 
+## How this was made
+
+This plugin was built with Claude Code, and the commit history says so: every commit lists Claude as co-author.
+
+- **Our part:** we designed the four-stage workflow and the handover between sessions, set the quality standards each stage works to, and chose which open-source skills to bundle and which commit to pin each one at. Every change in this repo was our decision.
+- **Claude's part:** working under our direction, Claude Code assembled the repository, ran the sync script that copies in the bundled skills, ran the checks, and made the edits we asked for.
+- **Everyone else's part:** most of the skills, agents and commands here were written by the authors listed in [What's bundled](#whats-bundled) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). They're copied unmodified, and the credit for them is theirs.
+
+There are no published evals yet: nothing here measures whether the plugin produces better results than Claude Code on its own. If you run a comparison, we'd like to see it.
+
 ## Licence
 
 The four stage skills, scripts and manifests are MIT licensed (see [LICENSE](LICENSE)). Bundled third-party work keeps its own licence.
